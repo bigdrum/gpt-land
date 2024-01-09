@@ -1,0 +1,6 @@
+{
+  "rewrites": [
+    { "source": "/oai/:url*", "destination": "https://api.openai.com/:url*" },
+    { "source": "/oai/:url*/", "destination": "https://api.openai.com/:url*/" }
+  ]
+}
